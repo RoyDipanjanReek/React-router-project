@@ -23,6 +23,6 @@ function Github(props) {
 export default Github;
 
 export const githubInfoLoader = async() => {
-    const responce = await fetch('https://api.github.com/users/hiteshchoudhary')
+    const responce = await fetch('https://api.github.com/users/RoyDipanjanReek')
     return responce.json()
 } 
